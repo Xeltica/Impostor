@@ -1,7 +1,7 @@
 <Project>
   <PropertyGroup>
     <VersionPrefix>1.5.0</VersionPrefix>
-    <VersionSuffix>dev</VersionSuffix>
+    <VersionSuffix>xeltica</VersionSuffix>
   </PropertyGroup>
 
   <ItemGroup>
