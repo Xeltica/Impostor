@@ -84,11 +84,6 @@ namespace Impostor.Server.Net.Inner.Objects
 
         public async ValueTask MurderPlayerAsync(IInnerPlayerControl target)
         {
-            if (!PlayerInfo.IsImpostor)
-            {
-                throw new ImpostorProtocolException("Tried to murder a player, but murderer was not the impostor.");
-            }
-
             if (PlayerInfo.IsDead)
             {
                 throw new ImpostorProtocolException("Tried to murder a player, but murderer was not alive.");
